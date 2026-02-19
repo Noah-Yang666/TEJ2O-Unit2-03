@@ -6,14 +6,14 @@
 */
 
 //perimeter
-basic.showString('A rectangle has dimensions 5 cm and 3 cm')
-basic.showString('The perimeter would be ' + (2 * (5 + 3)) + ' cm')
-basic.showIcon(IconNames.Happy)
+basic.showString('A rectangle has dimensions of 5 cm and 3 cm')
+basic.showString('The perimeter would be' +  (2*(5+3)).toString() + ' cm. ')
 basic.pause(100)
 basic.clearScreen()
 
+
+
 //area
-basic.showString('The area would be ' + '5x3 =' + (5*3) + 'cm^2')
-basic.showIcon(IconNames.Happy)
+basic.showString('The area would be' + (5*3).toString() + ' cm^2. ')
 basic.pause(100)
 basic.clearScreen()
